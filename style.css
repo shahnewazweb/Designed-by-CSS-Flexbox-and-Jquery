@@ -1,0 +1,153 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.main-tab {
+  width: 70%;
+  margin: 50px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border:2px solid gray;
+  transition: 3s;
+  
+}
+.tab-header {
+  background: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item-one {
+  cursor: pointer;
+  padding: 20px 20px;
+  transition: 1s;
+}
+.item-one:hover {
+  background: #059862;
+}
+.tab-content{
+   Border-top:2px solid gray;
+  padding:20px 20px; 
+}
+.tbtwo{
+  display:none;
+}
+.tbthree{
+  display:none;
+}
+/*icon navbar*/
+.navbar{
+  width:90%;
+  margin:50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color:gray;
+}
+.navbar a{
+  padding:20px 5px;
+  text-decoration: none;
+  color:#fff;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar a:hover{
+  background-color: black;
+}
+.active {
+  background-color: #04AA6D;
+}
+
+
+/*Mega menu start*/
+.mega-menu{
+  width:100%;
+  background: #333;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom:300px;
+  
+}
+.mega-menu a{
+  text-decoration:none;
+  color:#fff;
+  padding:20px 20px;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 20px;
+  background-color: inherit;  
+  cursor: pointer;
+}
+.mega-menu a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(0, 247, 255);
+}
+.dropdown-content{
+  display:none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left:0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+.dropdown-content .header {
+  background: rgb(133, 246, 250);
+  padding: 16px;
+  color: #333;
+  text-align:center;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding:50px;
+  column-gap: 10px;
+}
+.column1 h3{
+  text-align: center;
+  margin-bottom:50px;
+}
+.column1 a{
+  color:#333;
+}
+.column2{
+  display: flex;
+  flex-direction: column;
+}
+.column2 a{
+  color:#333;
+  padding:5px 0;
+  
+}
+.column2 a:hover, .column3 a:hover{
+  background-color:transparent!important;
+  color:#000 !important;
+  
+}
+.column2 h3{
+  text-align: center;
+  margin-bottom:25px;
+}
+.column3{
+  display: flex;
+  flex-direction: column;
+}
+.column3 a{
+  color:#333;
+  padding:5px 0;
+}
+.column3 h3{
+  text-align: center;
+  margin-bottom:25px;
+}
+a{
+   transition: 0.9s;
+}
